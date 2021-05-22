@@ -6,6 +6,7 @@ stochastic version of the NHB and RINP compartmental model
 Odds are deducted from rates
 
 Populations:
+
 	S: Susceptible
 	
 	E: Exposed
@@ -23,6 +24,7 @@ Populations:
 	Y: Total cases
 	
 Parameters:
+
 	-alpha: confination rate
 	
 	-beta: infection rate
