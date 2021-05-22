@@ -381,22 +381,6 @@ Outputs=list()
 for i in np.arange(Iter):
     print('Optimziation: ',i+1,' of ',Iter)
     #===============SETING THE ORIGIAL SET OF PARAMETERS===========================
-    lb=0
-    ub=1
-    params = Parameters()
-    params.add('alpha0', value=np.random.uniform(0,0.03), min=0, max=1)
-    params.add('alpha1', value=np.random.uniform(0,0.3), min=0, max=1)
-    params.add('beta', value= np.random.uniform(1,2), min=0, max=3)
-    params.add('betaQ', value= params['beta'].value*.2, min=0, max=params['beta'].value*.3)
-    params.add('gamma', value= np.random.uniform(0,0.5), min=0, max=1)
-    params.add('delta', value= np.random.uniform(0,0.3), min=0, max=1)
-    params.add('lambda0', value= np.random.uniform(0,0.3), min=0, max=1)
-    params.add('lambda1', value= np.random.uniform(0,0.03), min=0, max=1)
-    params.add('kappa0', value=np.random.uniform(0,0.003), min=0, max=1)
-    params.add('kappa1', value= np.random.uniform(0,0.3), min=0, max=1)
-    params.add('tau0', value= np.random.uniform(0,0.3), min=0, max=1)
-    params.add('tau1', value= np.random.uniform(0,0.03), min=0, max=1)
-    
     N=Npop
     dt=1/24
     
