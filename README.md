@@ -7,21 +7,34 @@ Odds are deducted from rates
 
 Populations:
 	S: Susceptible
+	
 	E: Exposed
+	
 	I: Infected
+	
 	Q: Infected Reported
+	
 	R: Recovered
+	
 	D: Dead
+	
 	P: Protected Population
+	
 	Y: Total cases
 	
 Parameters:
 	-alpha: confination rate
+	
 	-beta: infection rate
+	
 	-gamma: incubation rate
+	
 	-delta: detected infected
+	
 	-Lambda: recovery rate
+	
 	-kappa: death rate
+	
 	-tau: deconfination or realese rate 
 
 The models are separated into three different directories.
