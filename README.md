@@ -4,6 +4,7 @@ SARS-CoV-2 Model
 Stochastic model COVID-19
 stochastic version of the NHB and RINP compartmental model
 Odds are deducted from rates
+
 Populations:
      - S: Susceptible
      - E: Exposed
@@ -13,6 +14,7 @@ Populations:
      - D: Dead
      - P: Protected Population
      - Y: Total cases
+	
 Parameters:
       * alpha: confination rate
       * beta: infection rate
